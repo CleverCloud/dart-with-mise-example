@@ -1,0 +1,5 @@
+#! /bin/bash
+
+# echo in green
+echo -e "\033[0;32mBuilding Dart server…\033[0m"
+dart compile exe server.dart -o server
